@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{casual}
+\usepackage[T1]{fontenc}
+\usepackage[applemac]{inputenc}
+\usepackage[croatian]{babel}
+\usepackage[scale=0.8]{geometry}
+\recomputelengths
+
+\renewcommand*{\mobilephonesymbol}   {}
+
+% personal data
+\firstname{Alexander}
+\familyname{Huras}
+\mobile{mobile: 415.699.8293}
+\email{alex.huras@gmail.com}
+\extrainfo{Github: athuras}
+%\photo[84pt]{placeholder.jpg}   % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\nopagenumbers{}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\mobilesymbol}{}
+\maketitle
+
+%Section
+\section{Hi There!}
+\cvline{}{\Large I find patterns and solve problems.}
+\cvline{}{
+\small I'm continually seeking \textbf{interesting}, and \textbf{challenging} work, with people who share that goal.
+I have a broad collection of experience that spans industries and disciplines, with a recent focus in scientific programming within the domain of internet advertising.
+}
+
+%Section
+\section{Expertise}
+\cvcomputer{Languages}{Scala, Python, Erlang, Elixir, Julia}{Platforms}{Hadoop, Mesos, Unix, AWS}
+\cvcomputer{Tools}{NumPy, SciPy, CUDA, OpenCL, Theano, vim, Scalding}{Interests} {Auctions, Markets, Sound, Music, Analytics, Arbitrage, Linear Algebra}
+
+%Section
+\section{Experience}
+\subsection{Work}
+\cventry{August 2014 -}{Twitter Inc.}{Software Engineer}{San Francisco, CA}{}{
+  On the Ads Analytics team, I work on advertiser-facing infrastructure that predicts campaign efficacy. I also design tools for automated system characterisation (statistical or otherwise).
+}
+
+\cventry{Spring 2013}{Facebook Inc.}{Product Analytics Intern}{Menlo Park, CA}{}{
+	I conducted \textbf{quantitative analysis}, and \textbf{designed statistical experiments} for the Notifications and Messages teams.
+  Beyond interfacing with engineers and product managers, I additionally worked with the BI team---writing large data pipelines in \textbf{Hadoop} with \textbf{Hive}.
+  My most significant contribution was a large refactor/redesign of a legacy reporting pipeline---the result ran an order of magnitude faster, using 20\% of the resources.
+}
+
+\cventry{Fall 2012}{Magnetic Inc.}{Data Engineer}{New York City, NY}{}{
+	I built ad-performance reporting, data processing, and modelling pipelines leveraging \textbf{Hadoop, Pig, AWS} and various flavors of \textbf{Python}.
+	Additionally, I built some NLP tools targeted at assessing search data quality. All of which are happily operating in production.
+}
+
+\cventry{Winter 2012}{SkyGrid Inc.}{Software Engineering Intern}{Sunnyvale CA}{}{
+	As part of a small team I wore many hats. I contributed to the iOS codebase for Touchtv, a social TV app for iPad wherein I was responsible for Facebook and Twitter integration.
+	However, my most significant project used application-level JavaScript.
+}
+
+\cventry{Spring 2011, Fall 2010}{ITG Canada Inc.}{Trading System/Compliance Analyst}{Toronto ON}{}{
+	During my first 4-month block at ITG, I used a combination of Excel, SQL, VBA and Ruby to provide meaningful data analysis and create historical models of ITG's trading activity.
+	During my second block, I independently completely overhauled the existing trade compliance infrastructure in \textbf{SQL}---automating away the business case for hiring me in the first place.
+  I was also partly responsible for maintaining the backend of MATCH Now: a Canadian dark trading venue, as well as getting on the phone with traders using the platform.
+}
+
+\subsection{Projects}
+\cventry{2013-2014}{Relay: Adaptive Traffic Control}{SYDE 4B Design Project}{}{}{
+	Traffic is a major problem in almost all cities, and adaptive traffic control systems work quite well in most environments---but they are notoriously expensive.
+	We designed a distributed, geographically de-centralized traffic control system composed of single-intersection agents married to a modern traffic visualization application.
+	In concert, all agents in the system partially coordinate to generate a large distributed predictive model of macro-traffic patterns.
+	I designed the control systems, network architecture, and incentive structures used in the project.
+  The actors in the system (implemented in \textbf{Erlang/OTP}) operated as dynamic graph automata with consensus filters for loose synchroneity.
+}
+
+\cventry{Winter 2014}{Attention: English Accent Classification}{Research/Vision Quest}{}{}{
+	English Speach recognition is a difficult problem, particularly given the wide gamut of accents.
+  Using a variety of signal processing techniques, as well as online clustering, I developed a system which can decide whether a speaker is a native to the language. The resulting system achieves a cross-validated F1 score of 0.79 using untuned SVMs.
+  The system was written in \textbf{Python} making extensive use of \textbf{SciKit Learn}, and \textbf{NumPy}.
+}
+
+\cventry{Winter 2013}{divie: Friendly Asset Division}{SYDE 3B Design Project}{Waterloo ON}{}{
+	divie is a generalised auction/assignment platform targeted at division-of-asset scenarios (such as divorce).
+  Each user allocates a fixed budget towards items in a silent-auction-like manner.
+  I architected the system, and designed an algorithm which distributes auction items so that the variance of loss across the stakeholders is minimized.
+  The application was powered by \textbf{Flask, PostgresSQL}, and \textbf{Heroku}.
+}
+
+\cventry{Fall 2012}{BufferBox Lock Addressing}{BufferBox Inc.}{Waterloo ON}{}{
+	In partnership with BufferBox (YC'12)---a Waterloo-based logistics and delivery company (acquired by Google), we implemented the hardware aspect of the BufferBox platform using open-source components and software (Arduinos and LAMP). I worked primarily in \textbf{C++}.}
+
+%Section
+\section{Formal Education}
+\cventry{2009-2014}{BASc, Hon. Systems Design Engineering}{University of Waterloo}{}{Canada}{}
+\cventry{2005-2009}{IB Diploma and OSSD}{Vaughan Road Academy}{Toronto}{Canada}{}
+
+%Section
+\section{Vices}
+\cvline{Music}{Piano, Saxophone, Guitar, Didgeridoo}
+\cvline{}{Improvisational Jazz}
+\cvline{Fitness}{Cycling, Running, Swimming, Sailing}
+\cvline{Computing}{Auctions, Markets, Fractals, and GPUs}
+\cvline{Misc.}{Strategic Board Games, Making Ice Cream, Risotto}
+\cvline{}{Having Strong Opinions}
+
+\closesection{}
+\renewcommand{\listitemsymbol}{-}
+\end{document}
