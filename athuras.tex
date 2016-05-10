@@ -32,32 +32,34 @@
 \cvline{}{\Large I find patterns and solve problems.}
 \cvline{}{
 \small I'm continually seeking \textbf{interesting}, and \textbf{challenging} work, with people who share that goal.
-I have a broad collection of experience that spans industries and disciplines with a recent focus on scientific and systems programming.
+I have a broad collection of experience that spans industries and disciplines with a recent focus on distributed systems, functional programming, and statistics.
+My ideal team is one where I can learn at least as much as I can teach.
 }
 
 %Section
-\section{Expertise}
+\section{Skills}
 \cvcomputer{Languages}{Scala, Python, Erlang, Julia, Haskell}{Platforms}{Hadoop, Aurora + Mesos, Unix, AWS}
-\cvcomputer{Tools}{Scalding, Finagle, Storm, NumPy, vim}{Interests} {Market Systems, Functional Programming, Applied Statistics, Linear Algebra}
+\cvcomputer{Tools}{Scalding, Finagle, Storm, NumPy, Thrift}{Interests} {Functional Programming, Idris, Applied Statistics, Linear Algebra}
 
 %Section
 \section{Experience}
-\subsection{Work}
-\cventry{August 2014 -}{Twitter Inc.}{Software Engineer}{San Francisco, CA}{}{
-  As part of the Ads Analytics Infrastructure team, I've worked on advertising campaign forecasting, a rate limiter for a large distributed system, and a specialized sampling search engine.
-  I've also worked on the engagement counter: the analytics system powering Twitter's ads reporting products.
-  I've written numerous Scalding jobs, and substantially contributed to many production systems that are deployed to thousands of nodes, and are revenue critical.
-  I worked primary in \textbf{Scala}, \textbf{Java} and \textbf{Python}; and developed an addition to functional programming.
+
+\cventry{August 2014 -}{Twitter Inc.}{Software Engineer (Ads Data Infrastructure)}{San Francisco, CA}{}{
+  I've worked on search engines, federated databases, and a large scale timeseries reporting system, with a primary focus on interactive ad-campaign performance forecasting.
+  I've written numerous Scalding jobs, and substantially contributed to many revenue-critical production systems deployed on thousands of nodes.
+  I worked primary in \textbf{Scala}, and \textbf{Python} (with some Java thrown in); and developed an addiction to functional programming along the way.
+  I've guided complete system lifecycles, from deprecating and shutting down large legacy projects, to designing their newer, sexier replacements.
+  I have personally deleted tens of thousands of lines of old/crufty code.
+  I consistently give excellent code reviews (references available upon request).
 }
 
 \cventry{Spring 2013}{Facebook Inc.}{Product Analytics Intern}{Menlo Park, CA}{}{
-	I conducted \textbf{quantitative analysis}, and \textbf{designed statistical experiments} for the Notifications and Messages teams.
-  Beyond interfacing with engineers and product managers, I additionally worked with the BI team---writing large data pipelines in \textbf{Hadoop} with \textbf{Hive}.
+	I munged data, and conducted/analysed experiments for what is now the Growth/Messages analytics team, I had ownership of the Push Notification data pipelines.
   My most significant contribution was a large refactor/redesign of a legacy reporting pipeline---the result ran an order of magnitude faster, using 20\% of the resources.
 }
 
 \cventry{Fall 2012}{Magnetic Inc.}{Data Engineer}{New York City, NY}{}{
-	I built ad-performance reporting, data processing, and modelling pipelines leveraging \textbf{Hadoop, Pig, AWS} and various flavors of \textbf{Python}.
+	I built multiple analytics, and modelling pipelines with \textbf{Hadoop, Pig, AWS} and various flavors of \textbf{Python}.
 	Additionally, I built some NLP tools targeted at assessing search data quality. All of which are happily operating in production.
 }
 
@@ -66,22 +68,30 @@ I have a broad collection of experience that spans industries and disciplines wi
 }
 
 \cventry{Spring 2011, Fall 2010}{ITG Canada Inc.}{Trading System/Compliance Analyst}{Toronto ON}{}{
-	During my first 4-month block at ITG, I used a combination of Excel, SQL, VBA and Ruby to provide meaningful data analysis and create historical models of ITG's trading activity.
+	During my first 4-month block at ITG, I used a combination of Excel, SQL, VBA and Ruby to provide generic compliance support for institutional trading activity.
 	During my second block, I independently completely overhauled the existing trade compliance infrastructure in \textbf{SQL}---automating away the business case for hiring me in the first place.
 }
 
-\subsection{Projects}
+\clearpage
+
+\section{Projects}
+
+\cventry{2015}{Cacophony: Real-Time Audio Synthesis}{}{}{}{
+  This project was spawned from my desire to both learn a new languange (Haskell), and write a low-level midi synthesizer.
+  It deserves a place here not due to results; but rather the sheer number of false starts, language swaps; and general shenanigans that it took to realise that this sort of thing is actually difficult to get right.
+  This project is currently halted untill I can find sufficient time to fix/maintain a bunch of sound-related Haskell libraries (I'm looking at \emph{you} portaudio, lib-sndfile, repa).
+}
+
 \cventry{2013-2014}{Relay: Adaptive Traffic Control}{SYDE 4B Design Project}{}{}{
-	Traffic is a major problem in almost all cities, and adaptive traffic control systems work quite well in most environments---but they are notoriously expensive.
-	We designed a distributed, geographically de-centralized traffic control system composed of single-intersection agents married to a modern traffic visualization application.
-	In concert, all agents in the system partially coordinate to generate a large distributed predictive model of macro-traffic patterns.
+	Traffic is a significant problem in almost all urban areas.
+	We designed a distributed traffic control system composed of single-intersection agents married to a modern traffic visualization application.
 	I designed the control systems, network architecture, and incentive structures used in the project.
   The actors in the system (implemented in \textbf{Erlang/OTP}) operated as dynamic graph automata with consensus filters for loose synchroneity.
 }
 
 \cventry{Winter 2014}{Attention: English Accent Classification}{Research/Vision Quest}{}{}{
-	English Speach recognition is a difficult problem, particularly given the wide gamut of accents.
-  Using a variety of signal processing techniques, as well as online clustering, I developed a system which can classify whether a speaker is a native to the language.
+  Speech recognition is hard, particularly given the wide gamut of accents (even for humans!).
+  Using a variety of signal processing techniques, as well as some unsupervised learning, I developed a system which can (poorly) classify whether a speaker is a native to the language.
   The system was written in \textbf{Python} making extensive use of \textbf{SciKit Learn}, and \textbf{NumPy}.
 }
 
@@ -104,10 +114,9 @@ I have a broad collection of experience that spans industries and disciplines wi
 \section{Vices}
 \cvline{Music}{Piano, Saxophone, Guitar, Didgeridoo}
 \cvline{}{Improvisational Jazz}
-\cvline{Fitness}{Cycling, Running, Swimming, Sailing}
-\cvline{Computing}{Auctions, Markets, Fractals, and GPUs}
-\cvline{Misc.}{Strategic Board Games, Making Ice Cream, Risotto}
-\cvline{}{Having Strong Opinions}
+\cvline{Fitness}{Running, Climbing, Cycling, Sailing}
+\cvline{Computing}{Auctions, Markets, Synthesizers}
+\cvline{Misc.}{Strategic Board Games, Cooking}
 
 \closesection{}
 \renewcommand{\listitemsymbol}{-}
