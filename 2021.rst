@@ -24,9 +24,10 @@ I improve the efficacy of Twitter’s performance advertising products.
 This includes novel feature and modeling work that has lead to significant improvements to mobile app install metrics (and some that has not).
 I worked on a small team that was largely responsible for starting Twitter's shift from on premise model training and serving to a hybrid kubeflow based solution.
 I drove and oversaw a culture shift for project/model ownership and operations within an organization of over 50 engineers. 
-I built a quasi-realtime training feed in BigQuery for ad impressions at Twitter, and has become the de-facto standard for training models across the org in GCP.
+I built a GCP-based training data feed in BigQuery for ad impressions, which has become the de-facto standard source of truth for training ad prediction models across the organization.
 
 **Sr. Software Engineer** Twitter Inc (2016-2019)
+
 I worked on a large migration of Twitter's legacy ad reporting system onto a (then novel) hybrid cloud tech stack.
 I lead a small team to design, build, and launch a new ad reservation system.
 I lead an experimental effort to rethink how external (big) data becomes available within the ad server; this went on to form the foundation for a larger redesign effort.
@@ -35,7 +36,7 @@ This involved experiments in query/client performance within the ad server, intr
 **Software Engineer 2** Twitter Inc (2015-2016)
 
 Extending on prior work to include more technical leadership for the forecaster project, as well as an emergency project to rebuild our Brand Surveys product offering from scratch. 
-This involved building up, training, and eventually migrating the new system to a new team in Seattle.
+This involved building up, training, and eventually migrating the new system to a newly formed team in Seattle.
 
 **Software Engineer 1** Twitter Inc (2014 - 2015)
 
