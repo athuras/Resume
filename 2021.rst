@@ -29,7 +29,7 @@ I built a GCP-based training data feed in BigQuery for ad impressions, which has
 
 I worked on a large migration of Twitter's legacy ad reporting system onto a (then novel) hybrid cloud tech stack.
 I lead a small team to design, build, and launch an ad reservation system.
-I lead an experimental effort to rethink how external (no-sql) data becomes available within the ad server; this went on to form the foundation for a larger redesign effort.
+I lead an experimental effort to rethink how external data becomes available within the ad server; this went on to form the foundation for a larger redesign effort.
 This involved experiments in query/client performance within the ad server, introducing and instrumenting new datasets, and jumping in to address several high urgency projects related to data privacy in the context of ad serving.
 
 **Software Engineer 2** Twitter Inc (2015-2016)
@@ -39,7 +39,7 @@ This involved building up, training, and eventually migrating the new system to 
 
 **Software Engineer 1** Twitter Inc (2014 - 2015)
 
-Work focusing on data engineering for Twitter’s ad’s analytics infrastructure, as well as building a service for campaign performance forecasting.
+Focused on data engineering for Twitter’s ad analytics system, as well as replacing/retiring a legacy ad performance estimation system.
 
 Formal Education:
 =================
