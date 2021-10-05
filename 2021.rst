@@ -14,23 +14,22 @@ Professional Skills
 Experience:
 ===========
 
-The majority of my professional experience over the last 7 years has been working as a backend/ML engineer within the revenue organization at Twitter. 
+The majority of my professional experience has been working as a backend/ML engineer within the revenue organization at Twitter. 
 I've worked on a wide variety of projects spanning distributed systems, machine learning, and optimization as an individual contributor, project-, and team lead.
-I’ve had an outsized influence on our hiring culture and have conducted over 350 interviews, and working with hiring managers to improve their processes and grow their teams.
+I’ve had an outsized influence on our hiring culture and have conducted over 350 interviews, and worked with hiring managers to improve their processes and grow their teams.
 
 **Sr. ML Software Engineer** Twitter Inc (2019 - current)
 
-I improve the efficacy of Twitter’s performance advertising products. 
-This includes novel feature and modeling work that has lead to significant improvements to mobile app install metrics (and some that has not).
-I worked on a small team that was largely responsible for starting Twitter's shift from on premise model training and serving to a hybrid kubeflow based solution.
+I contributed to novel feature and modeling work that has lead to significant improvements to mobile app install metrics (and some that has not).
+I worked on a small team that was largely responsible for starting a shift from on premise model training and serving to a hybrid cloud, kubeflow-based solution.
 I drove and oversaw a culture shift for project/model ownership and operations within an organization of over 50 engineers. 
 I built a GCP-based training data feed in BigQuery for ad impressions, which has become the de-facto standard source of truth for training ad prediction models across the organization.
 
 **Sr. Software Engineer** Twitter Inc (2016-2019)
 
 I worked on a large migration of Twitter's legacy ad reporting system onto a (then novel) hybrid cloud tech stack.
-I lead a small team to design, build, and launch a new ad reservation system.
-I lead an experimental effort to rethink how external (big) data becomes available within the ad server; this went on to form the foundation for a larger redesign effort.
+I lead a small team to design, build, and launch an ad reservation system.
+I lead an experimental effort to rethink how external (no-sql) data becomes available within the ad server; this went on to form the foundation for a larger redesign effort.
 This involved experiments in query/client performance within the ad server, introducing and instrumenting new datasets, and jumping in to address several high urgency projects related to data privacy in the context of ad serving.
 
 **Software Engineer 2** Twitter Inc (2015-2016)
